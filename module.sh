@@ -10,7 +10,7 @@ pkg install nsnake &> //dev/null
 pkg install moon-buggy &> //dev/null
 pkg install ninvaders &> //dev/null
 echo "Package Already Installed"
-pip install requests colorama bs4 rich datetime
+pip install requests colorama bs4 rich datetime pycryptodome
 echo "pip Already Installed"
 sleep 3
 python ig.py
